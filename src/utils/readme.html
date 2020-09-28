@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="ServerCreate">
+    criar o servidor com dependências
+
+/* Preciso utilizar o Git bach; node.
+ entrar no site de ambos e baixar. */
+
+*/ Preciso preparar para utilizar o terminal:
+fazer que com que o terminal seja aberto pelo bach.
+
+<span>
+     ******* ### comandos no terminal:
+     </span>
+<div class = "comandsTerminal">
+pwd - mostra que pasta você está no terminal.
+cd - (cd + espaço + nome da pasta) entra na pasta especificada.
+
+cd d/nlw - entra na pasta especificada
+node -v - mostra a versão
+npm - v - mostra a versão (vem jundo com o node)
+ctrl + L - limpa o terminal
+npm install express -
+npm init  -y // começar um projeto na raiz da pasta.
+npm install nodemon -D - Ele vai instalar o monitoramento do node quando estamos 
+desenvolvendo uma aplicação.
+npm run dev - 
+</div>
+
+<h1>npm é o gerenciador de pacotes do node (subaplicações)
+Ele inicia criando um arquivo package.json
+
+<p> O express> é uma coleção de ideias, ele cria uma pasta chamada 
+node_modules.
+O package-lock.json é um arquivo criado quando instalo o express
+ele é um mapeamento das dependências da nossa aplicação.
+
+Refatorar significa organizar o diretório de pastas e o modo como fica 
+organizado o código.
+
+O live server só serve para rodar o seu projeto no pc dependendo do liveserver
+
+<h4> Dentro do src eu crio um arquivo: server.js
+
+<script>
+Local onde crio a chamada do express usando require.
+require('express')().listen(5138)
+
+{# depois que crio a chamada
+no terminal digito: node src/server.js #}
+Ele abre a porta para uso e liga o servidor e retorna: 
+que não pode usar uma rota, não pode pegar barra: CANNOT GET /
+Então,
+crio a rota com get() e chamo uma função.
+Ele precisa da requisição e da resposta na função. 
+e => isso é uma aerofunction;
+
+TODA VEZ QUE FAZER UMA ALTERAÇÃO  NO SERVIDOR, 
+VOCÊ PRECISA REINICIAR O SERVIDOR.
+ENTÃO, existe uma ferramenta que faz isso automáticamente, o nodemon.
+
+require('express')()
+    .get("/", (req, res) => {
+        return res.send("recebe o argumento, por exemplo: Hi")
+    })
+    .get("nome do arquivo, por exemplo: study"), (req, res) => {
+        return res.send("hi sou seu study")
+    }
+.listen(5138)
+
+function express() {
+    name: "Simone",
+    age: 33
+    return {
+    }
+
+}
+
+</script>
+
+
+
+
+
+</body>
+</html> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #}
